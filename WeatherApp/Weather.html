@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>City of Edinburgh - Weather</title>
+<link rel="stylesheet" href="css/WeatherStyle.css">
+<script src="js/WeatherWidget.js"></script>
+<script src="js/jquery.1.9.1.min.js"></script>
+<script src="js/moment.min.js"></script>
+</head>
+<body onload="getLocation()">
+	<table class="myTable">
+		<tr>
+			<th>Location</th>
+			<th>Current Weather</th>
+
+		</tr>
+		<tr>
+			<td><div id="location"></div></td>
+			<td><div id="weatherNow"></div></td>
+
+		</tr>
+
+
+	</table>
+	<table class="ForeCastTable">
+		<tr>
+			<th id="day1">Day 1 Forecast</th>
+			<th id="day2">Day 2 Forecast</th>
+			<th id="day3">Day 3 Forecast</th>
+			<th id="day4">Day 4 Forecast</th>
+			<th id="day5">Day 5 Forecast</th>
+
+		</tr>
+		<tr>
+			<td><div id="1"></div></td>
+			<td><div id="2"></div></td>
+			<td><div id="3"></div></td>
+			<td><div id="4"></div></td>
+			<td><div id="5"></div></td>
+		</tr>
+
+
+	</table>
+</body>
+
+</html>
